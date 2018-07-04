@@ -1,0 +1,35 @@
+.root {
+    
+    -fx-background-color: rgba(255, 255, 255, 1.0);
+    -fx-pref-width: 346px;
+    -fx-pref-height: 441px;
+    -fx-border-color: #dcdcdc;
+}
+
+.text-field {
+    
+    -fx-pref-width: 151px;
+    -fx-pref-height: 27px;
+    -fx-border-color: #dcdcdc;
+    
+}
+
+.round-exit-button {
+    
+    -fx-text-fill: red;
+    -fx-pref-width: 18px;
+    -fx-pref-height: 25px;
+    -fx-background-color: transparent;
+    -fx-border-color: #dcdcdc;
+    -fx-font-family: "Comic Sans MS", sans-serif;
+    -fx-border-radius: 100%;
+    -fx-background-radius: 100%;
+}
+
+.edit-button {
+    
+    -fx-background-color: transparent;
+    -fx-border-color: #dcdcdc;
+    -fx-pref-width: 62px;
+    -fx-pref-height: 25px;
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- The configuration definition -->
+
+ <beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+                            http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+     <bean id="dataSourceBean" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+         <property name="driverClassName" value="org.sqlite.JDBC"/>
+         <property name="url" value="jdbc:sqlite:eshelf.db"/>
+     </bean>
+     
+     <bean id="transactionManagerBean" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+         <property name="dataSource" ref="dataSourceBean"/>
+         
+     </bean>
+     
+     <bean id="adminTemplate" class="com.controls.AdminTemplate">
+         <property name="dataSource" ref="dataSourceBean"/>
+     </bean>
+     
+     <bean id="bookTemplate" class="com.bookshelf.BookTemplate">
+         <property name="dataSource" ref="dataSourceBean"/>
+         <property name="transactionManager" ref="transactionManagerBean"/>
+     </bean>
+     
+     <bean id="bookIssuedTemplate" class="com.bookshelf.BookIssuedTemplate">
+         <property name="dataSource" ref="dataSourceBean"/>
+         <property name="transactionManager" ref="transactionManagerBean"/>
+     </bean>
+ 
+ </beans>

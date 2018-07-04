@@ -1,0 +1,37 @@
+
+-arch=x86
+-jetcomponent=15.00
+-jetedition=Evaluation
+-vcode=8144
+-sys=W
+-nosmart
+-zimer=0
+-stack=900000
+-LargeAddressAware
+-config=VMProperty:-Djet.gc.heaplimit:0 -Djet.stack.trace
+-config=ClassPath:*{exe.dir}\dist\eShelf.jar;*{exe.dir}\dist\lib\mysql-connector-java-5.1.46-bin.jar;*{exe.dir}\dist\lib\spring-aop-4.1.6.RELEASE.jar;*{exe.dir}\dist\lib\spring-aspects-4.1.6.RELEASE.jar;*{exe.dir}\dist\lib\spring-beans-4.1.6.RELEASE.jar;*{exe.dir}\dist\lib\spring-context-4.1.6.RELEASE.jar;*{exe.dir}\dist\lib\spring-context-support-4.1.6.RELEASE.jar;*{exe.dir}\dist\lib\spring-core-4.1.6.RELEASE.jar;*{exe.dir}\dist\lib\spring-expression-4.1.6.RELEASE.jar;*{exe.dir}\dist\lib\spring-instrument-4.1.6.RELEASE.jar;*{exe.dir}\dist\lib\spring-instrument-tomcat-4.1.6.RELEASE.jar;*{exe.dir}\dist\lib\spring-jdbc-4.1.6.RELEASE.jar;*{exe.dir}\dist\lib\spring-jms-4.1.6.RELEASE.jar;*{exe.dir}\dist\lib\spring-messaging-4.1.6.RELEASE.jar;*{exe.dir}\dist\lib\spring-orm-4.1.6.RELEASE.jar;*{exe.dir}\dist\lib\spring-oxm-4.1.6.RELEASE.jar;*{exe.dir}\dist\lib\spring-test-4.1.6.RELEASE.jar;*{exe.dir}\dist\lib\spring-tx-4.1.6.RELEASE.jar;*{exe.dir}\dist\lib\spring-web-4.1.6.RELEASE.jar;*{exe.dir}\dist\lib\spring-webmvc-4.1.6.RELEASE.jar;*{exe.dir}\dist\lib\spring-webmvc-portlet-4.1.6.RELEASE.jar;*{exe.dir}\dist\lib\spring-websocket-4.1.6.RELEASE.jar;*{exe.dir}\dist\lib\commons-logging-1.2.jar;*{exe.dir}\dist\lib\sqlite-jdbc-3.21.0.jar
+-config=JREHome:C:\jet15.0-eval-x86\bin\..\profile1.8.0_144\jre
+-config=JETProfile:8144
+-config=JETProfileName:1.8.0_144
+-config=RuntimeKind:DESKTOP
+-EmbeddedFileSys=C:/Users/HP/Documents/NetBeansProjects/eShelf/EShelf_jetpdb/EShelf.efs
+-config=MainClass:com/controls/MainGUI
+-config=VersionInfo:jet-1500-release (eval, en)
+-config=CompatibilityString:Java SE version: 1.8.0_144; JET update level: 0; CPU architecture: x86
+-name=EShelf.exe
+C:\Users\HP\Documents\NetBeansProjects\eShelf\EShelf_jetpdb\version.res
+
+-entry=ExeEntryPoint
+
+-LinkFileAsRData=LINK_SplashPicture:C:\jet15.0-eval-x86\lib\x86\dummysplash.lib
+C:\jet15.0-eval-x86\lib\x86\startup-exe-normal.zip
+-config=PackagingOptions:dlls=decora_sse;msvcr120;javafx_font;prism_common;javafx_iio;prism_sw;glass;msvcp120;prism_d3d component_microversions=BC-0
+-ReadLinkInfo=C:\Users\HP\Documents\NetBeansProjects\eShelf\EShelf_jetpdb\reorder.li
+C:\Users\HP\Documents\NetBeansProjects\eShelf\EShelf_jetpdb\obj.zip
+-Config=RTComponent:XKRN15008144.dll
+C:\jet15.0-eval-x86\lib\x86\startup-rtlink.zip
+C:\jet15.0-eval-x86\lib\x86\import32.lib
+C:\jet15.0-eval-x86\lib\x86\app.res
+-StrictLinkToDLL
+
+

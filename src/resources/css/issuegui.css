@@ -1,0 +1,38 @@
+.root {
+    
+    -fx-background-color: white;
+    -fx-border-color: #dcdcdc;
+    -fx-pref-width: 325px;
+    -fx-pref-height: 143px;
+}
+
+.text-field {
+    
+    -fx-pref-width: 164px;
+    -fx-pref-height: 25px;
+    -fx-border-color: #dcdcdc;
+}
+
+.label {
+    
+    -fx-font-family: "Gill Sans MT";
+}
+
+.round-exit-button {
+    
+    -fx-border-radius: 100%;
+    -fx-background-radius: 100%;
+    -fx-background-color: transparent;
+    -fx-border-color: #dcdcdc;
+    -fx-text-fill: red;
+    -fx-pref-width: 22px;
+    -fx-pref-height: 1;
+}
+
+.issue-button {
+    
+    -fx-background-color: transparent;
+    -fx-border-color: #dcdcdc;
+    -fx-pref-width: 45px;
+    -fx-pref-height: 27px;
+}

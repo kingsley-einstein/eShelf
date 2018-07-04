@@ -1,0 +1,111 @@
+.root {
+    
+    -fx-background-color: rgba(255, 255, 255, 1.0);
+    -fx-border-radius: 5px;
+    -fx-border-color: #dcdcdc;
+    -fx-background-radius: 5px;
+    -fx-pref-width: 517px;
+    -fx-pref-height: 412px;
+}
+
+.side-pane {
+    
+    -fx-background-color: rgba(0, 0, 255, 0.5);
+    -fx-border-radius: 5px;
+    -fx-pref-width: 120px;
+    -fx-pref-height: 412px;
+}
+
+.text-field {
+    
+    -fx-border-color: #dcdcdc;
+    -fx-background-color: #f5f5f5;
+    -fx-opacity: 1.0;
+    -fx-pref-width: 199px;
+    -fx-pref-height: 25px;
+    -fx-blend-mode: darken;
+}
+
+.password-field {
+    
+    -fx-border-color: #dcdcdc;
+    -fx-background-color: #f5f5f5;
+    -fx-opacity: 1.0;
+    -fx-pref-width: 199px;
+    -fx-pref-height: 25px;
+    
+}
+
+.login-button {
+    
+    -fx-border-color: rgba(0, 255, 0, 0.89);
+    -fx-border-radius: 16%;
+    -fx-background-radius: 16px;
+    -fx-border-style: solid inside;
+    -fx-border-width: 1px;
+    -fx-background-color: transparent;
+    -fx-text-fill: rgba(0, 0, 255, 0.71);
+    -fx-font-family: "Gill Sans MT", sans-serif;
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+    -fx-pref-width: 199;
+    -fx-pref-height: 25;
+}
+
+.login-button:hover {
+    
+    -fx-background-color: darkviolet;
+    -fx-opacity: 0.56;
+}
+
+.reg-button {
+    
+    -fx-border-style: none;
+    -fx-background-color: transparent;
+    -fx-text-fill: rgba(0, 255, 0, 1.0);
+    -fx-font-family: 'Gill Sans MS', sans-serif;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.header-label {
+    
+    -fx-text-fill: rgba(255, 255, 255, 1.0);
+    -fx-font-family: Garamond;
+    -fx-font-size: 38px;
+    -fx-font-weight: bolder;
+}
+
+.def-label {
+    
+    -fx-text-fill: rgba(190, 255, 178, 1.0);
+    -fx-font-size: 10px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Comic Sans MS", sans-serif;
+}
+
+.exit-circle {
+    
+    -fx-fill: rgba(30, 144, 255, 1.0);
+    -fx-stroke: rgba(47, 185, 127, 1.0);
+}
+
+.xit {
+    
+    -fx-text-fill: rgba(235, 22, 22, 1.0);
+    -fx-font-family:'Comic Sans MS', sans-serif;
+    -fx-font-weight: bold;
+    -fx-opacity: 0.5;
+    -fx-font-size: 11px;
+}
+
+.image-view {
+    
+    -fx-blend-mode: darken;
+    -fx-opacity: 0.89;
+}
+
+.add-img {
+    
+    -fx-blend-mode: darken;
+}

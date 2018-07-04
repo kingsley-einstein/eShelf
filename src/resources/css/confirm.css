@@ -1,0 +1,36 @@
+.root {
+    
+    -fx-background-color: orange;
+    -fx-opacity: 0.86;
+    -fx-pref-width: 263px;
+    -fx-pref-height: 173px;
+    -fx-border-color: rgba(0, 255, 0, 0.79);
+}
+
+.image-view {
+    
+    -fx-blend-mode: color-burn;
+    /*-fx-fit-width: 70px;*/
+    /*-fx-fit-height: 76px;*/
+}
+
+.x-cancel {
+    
+    -fx-fill: white;
+    -fx-font-family: "Comic Sans MS", sans-serif;
+    -fx-font-size: 13px;
+}
+
+.x-cancel:hover {
+    
+    -fx-background-color: blue;
+    -fx-opacity: 0.76;
+}
+
+.error-text {
+    
+    -fx-fill: rgba(255, 255, 255, 0.65);
+    -fx-font-family: Georgia;
+    -fx-font-size: 12px;
+    /*-fx-effect: dropshadow;*/
+}

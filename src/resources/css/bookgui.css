@@ -1,0 +1,108 @@
+.root {
+    
+    -fx-background-color: white;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5%;
+    -fx-pref-width: 809px;
+    -fx-pref-height: 663px;
+    -fx-border-color: gray;
+}
+
+.round-exit-button {
+    
+    -fx-pref-width: 18px;
+    -fx-pref-height: 17px;
+    -fx-max-width: 18px;
+    -fx-border-radius: 100%;
+    -fx-border-color: rgba(0, 255, 0, 0.7);
+    -fx-background-radius: 100px;
+    -fx-background-color: transparent;
+    -fx-border-width: 1px;
+    -fx-text-fill: rgba(255, 0, 0, 0.89);
+    -fx-font-family: "Comic Sans MS", sans-serif;
+    -fx-font-size: 9px;
+}
+
+.reload-button {
+    
+    -fx-pref-width: 55px;
+    -fx-pref-height: 28px;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15%;
+    -fx-background-color: transparent;
+    -fx-border-color: rgba(0, 255, 0, 0.78);
+    -fx-text-fill: blue;
+    -fx-font-family: "Comic Sans MS", sans-serif;
+    -fx-font-size: 12px;
+}
+
+.side-pane {
+    
+    -fx-pref-width: 160px;
+    -fx-pref-height: 663px;
+    -fx-background-color: rgba(0, 0, 255, 0.5);
+}
+
+.text-field {
+    
+    -fx-pref-width: 138px;
+    -fx-pref-height: 25px;
+}
+
+.header-label {
+    
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-family: Cambria, sans-serif;
+    -fx-font-size: 20px;
+    -fx-text-alignment: center;
+}
+
+.add-button {
+    
+    -fx-background-color: white;
+    -fx-border-color: #dcdcdc;
+    -fx-border-style: solid centered;
+    -fx-border-width: 1px;
+    -fx-pref-width: 71px;
+    -fx-pref-height: 25px;
+}
+
+.label-boldened {
+    
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-font-family: Corbel;
+}
+
+.welcome-label {
+    
+    -fx-font-family: Constantia, sans-serif;
+    -fx-font-size: 12px;
+}
+
+.details-pane {
+    
+    -fx-border-color: #dcdcdc;
+    -fx-background-color: transparent;
+    -fx-pref-width: 272px;
+    -fx-pref-height: 200px;
+}
+
+.action-buttons {
+    
+    -fx-pref-width: 58px;
+    -fx-pref-height: 28px;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15%;
+    -fx-background-color: transparent;
+    -fx-border-color: rgba(0, 255, 0, 0.78);
+    -fx-text-fill: blue;
+    -fx-font-family: "Comic Sans MS", sans-serif;
+    -fx-font-size: 12px;
+}
+
+.table-view .column-header, .table-view .column-header .filler, .table-view .column-header-background .filler {
+    
+    -fx-background-color: rgba(0, 255, 0, 0.5);
+}

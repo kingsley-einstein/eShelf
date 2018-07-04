@@ -1,0 +1,60 @@
+.root {
+   
+    -fx-background-color: orangered;
+    -fx-opacity: 0.86;
+    -fx-border-color: green;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-pref-width: 286px;
+    -fx-pref-height: 366px;
+}
+
+.text-field {
+    
+    -fx-background-color: transparent;
+    -fx-border-color: blue;
+    -fx-pref-width: 167px;
+    -fx-pref-height: 27px;
+}
+
+.password-field {
+    
+    -fx-background-color: transparent;
+    -fx-border-color: blue;
+    -fx-pref-width: 167px;
+    -fx-pref-height: 27px;
+}
+
+.exit-text {
+    
+    -fx-fill: white;
+    -fx-font-size: 13px;
+    -fx-font-family: "Comic Sans MS", sans-serif;
+}
+
+.exit-text:hover {
+    
+    -fx-opacity: 0.65;
+}
+
+.image-view {
+    
+    -fx-blend-mode: darken;
+}
+
+.label {
+    
+    -fx-font-family: "Berlin Sans FB", sans-serif;
+    -fx-font-size: 12px;
+}
+
+.button {
+    
+    -fx-background-color: transparent;
+    -fx-border-color: purple;
+    -fx-border-radius: 15%;
+    -fx-background-radius: 15px;
+    -fx-pref-width: 139px;
+    -fx-pref-height: 27;
+    -fx-text-fill: rgba(255, 255, 255, 0.76);
+}
